@@ -9,7 +9,9 @@
 }
 
 .buttonsBlock {
-	/* flex: 1 1 auto; */
+	display: flex;
+	gap: 28px;
+	margin-right: 20px;
 }
 .button {	
 	border: none;
