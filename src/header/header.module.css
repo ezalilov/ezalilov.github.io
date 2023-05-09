@@ -1,0 +1,17 @@
+.header {
+	height: 100px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	/* background-color: #FCFCFC; */
+	background: #FCFCFC;
+
+}
+
+.buttonsBlock {
+	/* flex: 1 1 auto; */
+}
+.button {	
+	border: none;
+	background: transparent;
+}

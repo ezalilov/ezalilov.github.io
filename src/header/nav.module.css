@@ -1,0 +1,20 @@
+.nav-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+  }
+  
+  .list-item {
+	list-style: none;
+
+  }
+  
+  .link {
+	text-decoration: none;
+	color: black
+  }
+
+  .nav {
+	flex-grow: 1;
+  }
