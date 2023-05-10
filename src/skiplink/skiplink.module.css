@@ -1,0 +1,22 @@
+.screenreader-text {
+	position: absolute;
+	top: -200px;
+	left: 130px;
+	transition: top 0.2s;
+	background: black;
+	color: white;
+	width: 374px;
+	height: 56px;
+	border-radius: 5px;
+	text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	font-weight: 400;
+	font-size: 24px;
+}
+
+.screenreader-text:focus {
+	top: 22px;
+	left: 130px;
+}
