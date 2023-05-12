@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from '../card/card'
 import s from './main-content.module.css'
+import Modal from '../modal/modal'
 
 const catContent = [
 	{
@@ -21,7 +22,7 @@ export default function MainContent() {
 		<div className={ s.cards }>
 			{catContent.map((props) => <Card {...props} />)}
 		</div>
-		
+		{/* <Modal /> */}
 	</main>
   )
 }
