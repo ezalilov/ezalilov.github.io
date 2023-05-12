@@ -3,7 +3,7 @@ import React from 'react';
 import s from './App.module.css';
 import Header from './header/header';
 import Skiplink from './skiplink/skiplink';
-import MainContent from './main-content';
+import MainContent from './main-content/main-content';
 
 function App() {
   return (

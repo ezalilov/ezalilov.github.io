@@ -1,0 +1,35 @@
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	background: #FFFFFF;
+	border: 1px solid #000000;
+	border-radius: 5px;
+}
+
+.img {
+	width: 100%;
+	height: 244px;
+	object-fit: cover;
+}
+
+.buy-button {
+	border-radius: 5px;
+	border: none;
+	background: black;
+	width: 256px;
+	height: 56px;
+	color: white;
+	font-weight: 400;
+	font-size: 24px;
+}
+
+.actions {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 24px;
+	margin: 24px;
+}

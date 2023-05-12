@@ -1,18 +1,16 @@
 import React from 'react'
 import Nav from './nav'
-import heart from '../svg/heart.svg'
-import cart from '../svg/cart.svg'
+import cart from '../assets/svg/cart.svg'
 import s from './header.module.css'
+import WishlistButton from '../components/wishlist/wishlist'
 
 export default function Header() {
   return (
 	<header className={ s.header }>
 		<Nav />
 		<div className={ s.buttonsBlock }>
-			<button className={ s.button } type='button'>
-				<img src={ heart } alt='Открыть Вишлист' title="Вишлист" />
-			</button>
-			<button className={ s.button } type='button'>
+		<WishlistButton alt='Открыть список желаний' />
+		<button className={ s.button } type='button'>
 				<img src={ cart } alt='Открыть Корзину' title="Корзина" />
 			</button>
 		</div>
