@@ -1,0 +1,20 @@
+.input-item {
+	display: flex;
+	flex-direction: column;
+}
+
+.input {
+	max-width: 370px;
+	height: 50px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	padding: 14px 20px;
+	box-sizing: border-box;
+	border-radius: 5px;
+	border: 1px solid #000000;
+}
+
+.error {
+	color: #FC5858;
+}
