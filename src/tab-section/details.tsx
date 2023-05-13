@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useId } from 'react'
 import { Tabs } from './tabs';
 import s from './details.module.css'
 import sApp from '../App.module.css'
@@ -16,9 +16,10 @@ const tabsConfig = [
   
 
 export default function Details() {
+	const id = useId()
   return (
-	<section className={ s.details }>
-		<h2 className={ sApp['header-section'] }>Подробнее о товарах для котов</h2>
+	<section aria-labelledby={ id } className={ s.details }>
+		<h2 id={ id } className={ sApp['header-section'] }>Подробнее о товарах для котов</h2>
 		<Tabs tabsConfig={tabsConfig} />
 	</section>
   )
