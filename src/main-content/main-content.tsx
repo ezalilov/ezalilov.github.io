@@ -1,7 +1,6 @@
 import React from 'react'
 import Card from '../card/card'
 import s from './main-content.module.css'
-import Modal from '../modal/modal'
 import Details from '../tab-section/details'
 
 const catContent = [
@@ -11,7 +10,20 @@ const catContent = [
 		sale: "100",
 	},
 	{
-		label: "Коврик для кота",
+		label: "Игрушка для кота",
+		price: "150",
+		sale: "100",
+	},
+	{
+		label: "Мячик для кота",
+		price: "150",
+	},
+	{
+		label: "Мягкая игрушка для кота",
+		price: "150",
+	},
+	{
+		label: "Лоток для кота",
 		price: "150",
 	},
 ]
