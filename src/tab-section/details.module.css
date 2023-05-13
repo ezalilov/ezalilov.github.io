@@ -1,0 +1,44 @@
+.details {
+	display: flex;
+	margin-top: ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header-section {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 61px;
+  }
+
+/* Tabs style */
+.tabs-container {
+	align-self: start;
+}
+
+.tabs-list {
+	display: flex;
+	gap: 22px;
+}
+
+.tab {
+	border-radius: 5px;
+	border: 1px solid #000000;
+	width: 256px;
+	height: 56px;
+	background: white;
+	color: black;
+
+	font-weight: 400;
+	font-size: 24px;
+}
+
+.tab.active {
+	color: white;
+	background: black;
+}
+
+.tabpanel-wrapper {
+	margin: 22px 0;
+}
