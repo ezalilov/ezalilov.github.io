@@ -17,15 +17,15 @@ const catContent = [
 	},
 	{
 		label: "Мячик для кота",
-		price: "150",
+		price: "100",
 	},
 	{
 		label: "Мягкая игрушка для кота",
-		price: "150",
+		price: "130",
 	},
 	{
 		label: "Лоток для кота",
-		price: "150",
+		price: "110",
 	},
 ]
 
@@ -40,7 +40,6 @@ export default function MainContent() {
 	</main>
 	<Video />
 	<Details />
-	<footer></footer>
 	</>
   )
 }
