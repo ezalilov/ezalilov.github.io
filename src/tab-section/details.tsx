@@ -1,6 +1,7 @@
 import React from 'react'
 import { Tabs } from './tabs';
 import s from './details.module.css'
+import sApp from '../App.module.css'
 
 const tabsConfig = [
 	{
@@ -17,7 +18,7 @@ const tabsConfig = [
 export default function Details() {
   return (
 	<section className={ s.details }>
-		<h2 className={ s['header-section'] }>Подробнее о товарах для котов</h2>
+		<h2 className={ sApp['header-section'] }>Подробнее о товарах для котов</h2>
 		<Tabs tabsConfig={tabsConfig} />
 	</section>
   )
